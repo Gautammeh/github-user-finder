@@ -3,6 +3,7 @@ import SearchBar from "./components/SearchBar"
 import UserCard from "./components/UserCard"
 import RepoList from "./components/RepoList"
 
+const token = import.meta.env.VITE_GITHUB_TOKEN;
 function App() {
 
   const [userData, setUserData] = useState(null)
@@ -26,8 +27,13 @@ function App() {
       const user = await userRes.json()
       setUserData(user)
 
-      const repoRes = await fetch(`https://api.github.com/users/${searchName}/repos?sort=stars&per_page=6`)
+      const repoRes = await fetch(`https://api.github.com/users/${searchName}/repos?sort=stars&per_page=6`, {
+        headers: {
+          Authorization: `token ${token}`
+        }
+      })
       const repoData = await repoRes.json()
+
 
       setRepos(repoData)
 
