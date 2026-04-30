@@ -7,10 +7,10 @@ A simple and responsive React application that allows users to search for any Gi
 ## 🚀 Features
 
 * 🔎 Search any GitHub user by username
-* 👤 Display user profile (avatar, bio, followers, following, etc.)
+* 👤 Display user profile (avatar, bio, followers, following)
 * ⭐ Show top 6 repositories sorted by stars
 * ⚡ Fast and responsive UI
-* ❌ Handles errors (user not found, API limit, etc.)
+* ❌ Handles errors (user not found, API limit)
 
 ---
 
@@ -18,7 +18,7 @@ A simple and responsive React application that allows users to search for any Gi
 
 * React.js
 * JavaScript (ES6+)
-* CSS / Tailwind (mention what you used)
+* CSS
 * GitHub REST API
 
 ---
