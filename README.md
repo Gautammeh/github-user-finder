@@ -26,7 +26,7 @@ A simple and responsive React application that allows users to search for any Gi
 ## 📸 Screenshots
   
 <img width="734" height="639" alt="image" src="https://github.com/user-attachments/assets/5014c9a0-5fa8-4931-86d8-d1c08db907c9" />
-![Uploading image.png…]()
+
 
 ---
 
